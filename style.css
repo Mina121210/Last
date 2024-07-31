@@ -859,7 +859,7 @@ font-size: 25px;
 .r{
     background:white;
     text-align: center;
-    padding: 40px;
+    padding: 10px;
 
   
 }
@@ -868,12 +868,12 @@ font-size: 25px;
    color: black;
     padding-bottom: 30px;
      position: relative;
-     top: 100px;
+     top: 0px;
 }
 
 .r h1{
     position: relative;
-    top: 100px;
+    top: 0px;
     color: black;
 
 }
