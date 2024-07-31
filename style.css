@@ -863,7 +863,7 @@ font-size: 25px;
     background:white;
     text-align: center;
     padding: 60px;
-
+   width:100%;
   
 }
 
@@ -886,7 +886,7 @@ font-size: 25px;
     position: relative;
     top:0px;
     font-weight: bolder;
-   background: red;
+   background: rgb(207, 45, 45);
    border-radius: 100px;
    padding: 15px;
    width: 120px;
@@ -1116,7 +1116,7 @@ background: black;
 }
 
 .in input{
-    width: 100%;
+    width: 90%;
     height: 40px;
 }
 
