@@ -227,7 +227,8 @@ body{
             border-color: white;
             background:transparent;
             color: white;
-          
+          position: relative;
+        top: 0px;
         }
     
     }
@@ -412,7 +413,8 @@ body{
         border-color: white;
         background: transparent;
         color: white;
-      
+      position: relative;
+        top: 0px;
     }
     
     
@@ -790,7 +792,8 @@ font-size: 25px;
         border-color: white;
         background: transparent;
         color: white;
-      
+      position: relative;
+        top: 0px;
     }
     
     
@@ -897,7 +900,8 @@ font-size: 25px;
    border-color: black;
    background: transparent;
    color: black;
- 
+ position: relative;
+        top: 0px;
 }
 
 @media (max-width:768px) {
@@ -932,9 +936,15 @@ font-size: 25px;
     
     .r p{
         padding-bottom: 30px;
-    
+        font-size:30px;
     }
     
+.r h1{
+    position: relative;
+    top: 0px;
+    color: black;
+   font-size:40px;
+}
     
     .r button{
     
