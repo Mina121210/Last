@@ -868,19 +868,19 @@ font-size: 25px;
    color: black;
     padding-bottom: 30px;
      position: relative;
-     top: 100px;
+     top: 0px;
 }
 
 .r h1{
     position: relative;
-    top: 100px;
+    top: 0px;
     color: black;
 
 }
 
 .r button{
     position: relative;
-    top: 100px;
+    top:0px;
     font-weight: bolder;
    background: red;
    border-radius: 100px;
