@@ -794,6 +794,7 @@ font-size: 25px;
 }
 
 .r p{
+   font-size:10px;
    color: black;
     padding-bottom: 30px;
      position: relative;
@@ -804,7 +805,7 @@ font-size: 25px;
     position: relative;
     top: 0px;
     color: black;
-
+   font-size:15px;
 }
 
 .r button{
