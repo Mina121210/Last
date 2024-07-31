@@ -136,12 +136,12 @@ body{
 .on button{
    
      font-weight: bolder;
-    background:  rgb(207, 45, 45);
+    background: white;
     border-radius: 100px;
     padding: 15px;
     width: 120px;
     color: black;
-    border-color:  rgb(207, 45, 45);
+    border-color:white;
     position: relative;
     top: 90px;
     
@@ -150,8 +150,8 @@ body{
 .on button:hover{
    
     border-color: white;
-    background: white;
-    color: black;
+    background: transparent;
+    color: white;
     position: relative;
     top: 90px;
 }
@@ -211,12 +211,12 @@ body{
         .on button{
    
      font-weight: bolder;
-    background:  rgb(207, 45, 45);
+    background: white;
     border-radius: 100px;
     padding: 15px;
     width: 120px;
     color: black;
-    border-color:  rgb(207, 45, 45);
+    border-color:white;
     position: relative;
     top: 90px;
     
@@ -225,8 +225,8 @@ body{
 .on button:hover{
    
     border-color: white;
-    background: white;
-    color: black;
+    background: transparent;
+    color: white;
     position: relative;
     top: 90px;
 }
@@ -294,9 +294,9 @@ body{
         background-position: center;
         background-size: contain;
        padding:0px;
-       height: 400px;
+       height: 300px;
        text-align: center;
-       width: 70%;
+       width: 50%;
 
 }
 
