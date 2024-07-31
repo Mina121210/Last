@@ -859,7 +859,7 @@ font-size: 25px;
 .r{
     background:white;
     text-align: center;
-    padding: 40px;
+    padding: 60px;
 
   
 }
@@ -869,13 +869,14 @@ font-size: 25px;
     padding-bottom: 30px;
      position: relative;
      top: 0px;
+   font-size:10px;
 }
 
 .r h1{
     position: relative;
     top: 0px;
     color: black;
-
+   font-size:15px;
 }
 
 .r button{
