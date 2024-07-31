@@ -134,27 +134,28 @@ body{
     top: 90px;
 }
 .on button{
-   
+    position: relative;
+ top: 90px;
      font-weight: bolder;
-    background: white;
+    background:  white;
     border-radius: 100px;
     padding: 15px;
     width: 120px;
     color: black;
-    border-color:white;
-    position: relative;
-    top: 90px;
+    border-color: white;
+ 
     
 }
 
 .on button:hover{
-   
+    
     border-color: white;
     background: transparent;
     color: white;
     position: relative;
     top: 90px;
 }
+
 
 .n{
     width: 110%;
@@ -209,27 +210,28 @@ body{
         }
              
         .on button{
-   
+    position: relative;
+ top: 90px;
      font-weight: bolder;
-    background: white;
+    background:  white;
     border-radius: 100px;
     padding: 15px;
     width: 120px;
     color: black;
-    border-color:white;
-    position: relative;
-    top: 90px;
+    border-color: white;
+ 
     
 }
 
 .on button:hover{
-   
+    
     border-color: white;
     background: transparent;
     color: white;
     position: relative;
     top: 90px;
 }
+
     }
     
 
