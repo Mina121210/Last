@@ -868,13 +868,13 @@ font-size: 25px;
    color: black;
     padding-bottom: 30px;
      position: relative;
-     top: 0px;
+     top: 100px;
    font-size:10px;
 }
 
 .r h1{
     position: relative;
-    top: 0px;
+    top: 100px;
     color: black;
    font-size:15px;
   
@@ -882,7 +882,7 @@ font-size: 25px;
 
 .r button{
     position: relative;
-    top: 0px;
+    top: 100px;
     font-weight: bolder;
    background: red;
    border-radius: 100px;
