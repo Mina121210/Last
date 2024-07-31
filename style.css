@@ -150,8 +150,8 @@ body{
 .on button:hover{
    
     border-color: white;
-    background: white;
-    color: black;
+    background: transparent;
+    color: white;
     position: relative;
     top: 90px;
 }
@@ -210,7 +210,7 @@ body{
         }
              
            .on button{
-            transform: translatey(140px);
+            
              font-weight: bolder;
             background:  white;
             border-radius: 100px;
@@ -224,7 +224,7 @@ body{
         }
         
         .on button:hover{
-            transform: translatey(140px);
+            
             border-color: white;
             background:transparent;
             color: white;
