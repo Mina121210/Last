@@ -41,6 +41,59 @@ body{
 
 
 
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000;
+        padding: 10px 20px;
+        color: #fff;
+    }
+    
+    .menu-icon {
+        display: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .menu {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .menu li {
+        margin-left: 20px;
+    }
+    
+    .menu a {
+        text-decoration: none;
+        color:white;
+    }
+    
+    @media (max-width: 768px) {
+        .menu {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            padding-top: 20px;
+        }
+        
+        .menu-icon {
+            display: block;
+        }
+        
+        .menu li {
+            margin-left: 0;
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+    
+    
+    
 
 
 
@@ -81,27 +134,31 @@ body{
     top: 90px;
 }
 .on button{
-    position: relative;
-    top: 90px;
+   
      font-weight: bolder;
-    background:white;
+    background:  rgb(207, 45, 45);
     border-radius: 100px;
-    padding: 16px;
+    padding: 15px;
     width: 120px;
     color: black;
-    border-color: white;
-
+    border-color:  rgb(207, 45, 45);
+    position: relative;
+    top: 90px;
+    
 }
+
 .on button:hover{
-
-    border-color: blue;
-    background: blue;
-    color: white;
-  
+   
+    border-color: white;
+    background: white;
+    color: black;
+    position: relative;
+    top: 90px;
 }
+
 .n{
-    width: 100%;
-    height: 240px;
+    width: 110%;
+    height: 260px;
     padding-top: 90px;
     }
 
@@ -152,18 +209,25 @@ body{
         }
              
         .on button{
-            position: relative;
-            top: 0px;
             transform: translatey(140px);
-           font-size: 10px;
              font-weight: bolder;
-            background:white;
+            background:  white;
             border-radius: 100px;
-            padding: 9px;
-            width: 90px;
+            padding: 15px;
+            width: 120px;
             color: black;
             border-color: white;
+            position: relative;
+            top: 0px;
+            
+        }
         
+        .on button:hover{
+            transform: translatey(140px);
+            border-color: white;
+            background:transparent;
+            color: white;
+          
         }
     
     }
@@ -213,6 +277,7 @@ body{
     padding: 40px;
     padding-right: 66px;
     gap: 70px;
+    background: white;
 }
 
 .i{
@@ -235,7 +300,6 @@ body{
 
 }
 
-
 .x h1{
 
     color: white;
@@ -245,7 +309,6 @@ body{
 
 }
 
-
 .x p{
     position: relative;
     top: 100px;
@@ -254,29 +317,28 @@ body{
 
 }
 
-
 .x button{
     position: relative;
-    top: 100px;
-    
+ top: 100px;
      font-weight: bolder;
-    background: white;
+    background:  white;
     border-radius: 100px;
     padding: 15px;
     width: 120px;
     color: black;
     border-color: white;
-
+ 
+    
 }
 
 .x button:hover{
-
-    border-color: blue;
-    background: blue;
+    
+    border-color: white;
+    background: transparent;
     color: white;
-  
+    position: relative;
+    top: 100px;
 }
-
 
 
 @media (max-width:768px) {
@@ -294,7 +356,7 @@ body{
         width: 100%;
         height:auto ;
         padding-bottom: 0px;
-        padding-top: 0px;
+        padding-top: 100px;
        
         
           }
@@ -334,7 +396,7 @@ body{
     .x button{
         transform: translatey(140px);
          font-weight: bolder;
-        background: white;
+        background:  white;
         border-radius: 100px;
         padding: 15px;
         width: 120px;
@@ -347,8 +409,8 @@ body{
     
     .x button:hover{
         transform: translatey(140px);
-        border-color: blue;
-        background: blue;
+        border-color: white;
+        background: transparent;
         color: white;
       
     }
@@ -393,7 +455,8 @@ body{
 
 .u{
     display: flex;
-  
+    gap: 12px;
+   
 }
 
 .t{
@@ -415,14 +478,14 @@ body{
     color: white;
     font-size: 25px;
    position: relative;
-   top: 50px;
+   top: 100px;
 }
 .t p{
     font-size: 20px;
     color: gainsboro;
     padding-bottom: 10px;
     position: relative;
-    top: 50px;
+    top: 100px;
 }
 .t button{
     position: relative;
@@ -447,30 +510,34 @@ body{
 .s{
     padding: 20px;
     display: grid;
-    gap: 6px;
-    background: black;
+    gap: 5px;
+    background: blueiolet;
     width: 50%;
-
+  
 }
 
 .e{
+  
     font-size: 40px;
     width: 90%;
     padding: 20px;
     background: transparent;
     border: none;
+    border-bottom: solid;
+    border-color: white;
+ 
 }
 
 input:focus{
 border-style: none;
+outline: none;
 
 }
 
 ::placeholder{
-color: white;
-font-size: 25px;
-}
-
+    color: white;
+    font-size: 25px;
+    }
 
 @media (max-width:768px) {
    
@@ -491,7 +558,7 @@ font-size: 25px;
            height: 430px;
            text-align: center;
            width: 100%;
-
+           padding-bottom: 18px;
         }
            
         .t h1{
@@ -499,7 +566,8 @@ font-size: 25px;
             color: black;
             transform: translatey(140px);
             font-size: 35px;  
-         
+            position: relative;
+            top: 10px;
         
         }
         
@@ -507,9 +575,11 @@ font-size: 25px;
             transform: translatey(140px);
             color: black;
             padding: 0px;
-        
+            position: relative;
+            top: 10px;
+       
         }
-         
+        
         .t button{
             transform: translatey(140px);
              font-weight: bolder;
@@ -532,8 +602,7 @@ font-size: 25px;
         
         
 .s{
-    background: red;
-    width: 92%;
+    width: 90%;
 
 }
 
@@ -593,9 +662,9 @@ font-size: 25px;
 
 .o{
 
-    width: 110%;
+    width: 100%;
     height: 240px;
-    padding-top: 0px;
+    padding-top: 80px;
     }
 
 .w{
@@ -610,14 +679,12 @@ font-size: 25px;
    padding-top: 0px;
 }
 
-
 .w h1{
 
     color: white;
     position: relative;
     top: 90px
 }
-
 
 .w p{
     position: relative;
@@ -627,38 +694,38 @@ font-size: 25px;
 
 }
 
-
 .w button{
-    position: relative;
-    top: 90px;
+   
      font-weight: bolder;
-    background: white;
+    background:  white;
     border-radius: 100px;
     padding: 15px;
     width: 120px;
     color: black;
     border-color: white;
-
+    position: relative;
+    top: 90px;
+    
 }
 
 .w button:hover{
+    
+    border-color: white;
+    background: transparent;
+    color: white;
     position: relative;
     top: 90px;
-    border-color: blue;
-    background: blue;
-    color: white;
-  
 }
-
 
 
 @media (max-width:768px) {
    
 
 .k{
+   
     display: block;
     padding: 0px;
-   
+  
     }
        
     
@@ -666,14 +733,14 @@ font-size: 25px;
     
         width: 100%;
         height:auto ;
-        padding-bottom: 80px;
-        padding-top: 30px;
-       
+        padding-bottom: 0px;
+        padding-top: 100px;
+   
         
           }
-           
-    
+            
     .w{
+   
         background-image: url("bg-1.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -682,6 +749,8 @@ font-size: 25px;
        height: 430px;
        text-align: center;
        width: 100%;
+   
+   
     }
        
     .w h1{
@@ -705,7 +774,7 @@ font-size: 25px;
     .w button{
         transform: translatey(140px);
          font-weight: bolder;
-        background: white;
+        background:  white;
         border-radius: 100px;
         padding: 15px;
         width: 120px;
@@ -713,15 +782,17 @@ font-size: 25px;
         border-color: white;
         position: relative;
         top: 0px;
+        
     }
     
     .w button:hover{
         transform: translatey(140px);
-        border-color: blue;
-        background: blue;
+        border-color: white;
+        background: transparent;
         color: white;
       
     }
+    
     
     
 }
@@ -774,10 +845,10 @@ font-size: 25px;
     font-weight: bold;
     font-style: italic;
 }
+
 .j h1 {
     color: white;
 }
-
 
 .j img{
         background: wheat;
@@ -794,23 +865,22 @@ font-size: 25px;
 }
 
 .r p{
-   font-size:10px;
    color: black;
     padding-bottom: 30px;
      position: relative;
-     top: 0px;
+     top: 100px;
 }
 
 .r h1{
     position: relative;
-    top: 0px;
+    top: 100px;
     color: black;
-   font-size:15px;
+
 }
 
 .r button{
     position: relative;
-    top: 0px;
+    top: 100px;
     font-weight: bolder;
    background: red;
    border-radius: 100px;
@@ -832,8 +902,9 @@ font-size: 25px;
 @media (max-width:768px) {
 
     .h{
-        background: red;
+        
         display: block;
+
     }
     
     .j{
@@ -853,7 +924,7 @@ font-size: 25px;
         text-align: center;
         padding: 40px;
          position: relative;
-         top: 90px;
+         top: 0px;
          height:400px;
       
     }
@@ -867,7 +938,7 @@ font-size: 25px;
     .r button{
     
         font-weight: bolder;
-       background: white;
+       background: o rgb(207, 45, 45)range;
        border-radius: 100px;
        padding: 15px;
        width: 120px;
@@ -878,8 +949,8 @@ font-size: 25px;
     
     .r button:hover{
     
-       border-color: blue;
-       background: blue;
+       border-color:  orange;
+       background: orange;
        color: white;
      
     }
@@ -1084,4 +1155,8 @@ background: black;
 
 
 
-
+.end{
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
