@@ -531,7 +531,7 @@ body{
     border: none;
     border-bottom: solid;
     border-color: white;
- 
+   color:white;
 }
 
 input:focus{
