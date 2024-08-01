@@ -519,7 +519,7 @@ body{
     gap: 5px;
     background: blueiolet;
     width: 50%;
-  
+  color:white;
 }
 
 .e{
@@ -537,7 +537,7 @@ body{
 input:focus{
 border-style: none;
 outline: none;
-
+color:white;
 }
 
 ::placeholder{
